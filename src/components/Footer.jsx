@@ -3,7 +3,7 @@ import React from 'react'
 import { ImWhatsapp, ImDrawer2 , ImLinkedin } from "react-icons/im";
 export const Footer = () => {
   return (
-   <footer className='flex justify-around bg-green-800 ' >
+   <footer className='flex flex-col sm:flex-row sm:justify-around bg-green-800 ' >
     <section className='bg-green-800 text-white font-medium h-30 p-16'>
         <h1 className=' border-b-2 w-28 border-green-300 '>MatrixBase</h1>
         <p className=' mt-3 text-sm'>oferece serviços de armazenamento,<br /> processamento e gerenciamento de <br />dados para diversos setores. <br />  Seu foco é fornecer infraestrutura <br />confiável e segura, garantindo a <br /> disponibilidade e integridade dos <br /> dados dos clientes.</p>
