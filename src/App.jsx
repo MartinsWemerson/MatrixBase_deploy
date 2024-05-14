@@ -14,7 +14,7 @@ function App() {
      <NavBar/>
 
     <Routes>
-    <Route path='*' element={<h1> erro 404 </h1> } />
+    <Route path='*' element={<h1 className=' mb:text-8xl  text-2xl  m-36   text-center '> erro 404 </h1> } />
       <Route path='/' element={<Home/>} />
       <Route path='/Contato' element={<Contato/>} />
       <Route path='/serviços' element={<Serviços/>} />
