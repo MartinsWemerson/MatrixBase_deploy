@@ -6,7 +6,7 @@ export const NavBar = () => {
      <Link to="/"className=' hover:text-stone-800 '  >Home</Link>   
      <ul className='flex justify-between gap-3 sm:gap-6 mr-3 max-sm  '  >
      <li><Link to="/serviços"className=' hover:text-stone-800' >Serviços</Link></li>
-     <li> <Link to="/contato" className=' hover:text-stone-800'> Contato</Link></li>
+    
      <li> <Link to="perfil" className=' hover:text-stone-800'>Perfil </Link></li>
 
         </ul>    

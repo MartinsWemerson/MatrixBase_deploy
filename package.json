@@ -1,6 +1,5 @@
 {
-  "homepage": "https://MartinsWemerson.github.io/matrixbase_deploy",
-  "name": "matrixbase",
+
   "private": true,
   "version": "0.0.0",
   "type": "module",
