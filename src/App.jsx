@@ -15,7 +15,7 @@ function App() {
     <Route path='*' element={<h1 className=' mb:text-8xl  text-2xl  m-36   text-center '> erro 404 </h1> } />
       <Route path='/' element={<Home/>} />
       <Route path='/serviços' element={<Serviços/>} />
-      <Route path='/perfil' element={<Perfil/>} />
+      <Route path='/contato' element={<Perfil/>} />
     
     </Routes>
      
